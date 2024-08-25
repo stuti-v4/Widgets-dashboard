@@ -1,0 +1,22 @@
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+html {
+  font-size: 12px;
+}
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

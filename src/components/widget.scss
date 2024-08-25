@@ -1,0 +1,21 @@
+.widget {
+  &__container {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 8px;
+    position: relative;
+
+    box-shadow: 0 2px 8px rgba(#414C68, 0.08);
+  }
+
+  &__cta {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+}

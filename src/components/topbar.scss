@@ -1,0 +1,23 @@
+.topbar {
+  &__container {
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1.6rem;
+    padding: 0 1.6rem;
+  }
+
+  &__search-bar {
+    cursor: pointer;
+    width: 350px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,64 @@
+.form {
+  &__container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    z-index: 11;
+  }
+
+  &__wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    background-color: #f9f9f9;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: lightblue;
+  }
+
+  &__sub-header {
+    padding: 0 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__selected-cta {
+    border: 2px black;
+    color: darkslateblue;
+    background-color: lightblue ;
+  }
+
+  &__action-cta {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    gap: 10px;
+  }
+}
